@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>데이터 자료</title>
+</head>
+
+<body>
+    <form method="post">
+        <span>대상 선택</span>
+        <select name="type">
+            <option value="">선택</option>
+            <!-- <option value="open1">법령</option> -->
+            <option value="diagnosis">진단서</option>
+        </select>
+        <span>날짜 선택</span>
+        <select name="month">
+            <option value="">선택</option>
+            <option value="1">1월</option>
+            <option value="2">2월</option>
+            <option value="3">3월</option>
+            <option value="4">4월</option>
+            <option value="5">5월</option>
+            <option value="6">6월</option>
+            <option value="7">7월</option>
+            <option value="8">8월</option>
+            <option value="9">9월</option>
+            <option value="10">10월</option>
+            <option value="11">11월</option>
+            <option value="12">12월</option>
+        </select>
+        <button type="button">s
+            시작
+        </button>
+    </form>
+    <!-- <% if (result) { %>
+        <table border="1">
+            <th>순번</th>
+            <th>의뢰인</th>
+            <th>대분류</th>
+            <th>소분류</th>
+            <th>요지서내용</th>
+            <th>소장(고소장)</th>
+            <th>판례요약</th>
+            <th>사건분석</th>
+            <th>법률</th>
+            <th>승소사례</th>
+            <th>사건요약</th>
+            <th>작성일</th>
+            <% for (let i=0; i < result.length; i++) { %>
+                <tr>
+                    <td>
+                        <%=result[i].id%>
+                    </td>
+                    <td>
+                        <%=result[i].name%>
+                    </td>
+                    <td>
+                        <%=result[i].mainType%>
+                    </td>
+                    <td>
+                        <%=result[i].subType%>
+                    </td>
+                    <td>
+                        <%=result[i].content%>
+                    </td>
+                    <td>
+                        <%=result[i].sample%>
+                    </td>
+                    <td>
+                        <%=result[i].precedent%>
+                    </td>
+                    <td>
+                        <%=result[i].analysis%>
+                    </td>
+                    <td>
+                        <%=result[i].law%>
+                    </td>
+                    <td>
+                        <%=result[i].case%>
+                    </td>
+                    <td>
+                        <%=result[i].caseSummary%>
+                    </td>
+                    <td>
+                        <%=result[i].createdAt%>
+                    </td>
+                </tr>
+                <% } %>
+        </table>
+        <% } %> -->
+</body>
+
+</html>
